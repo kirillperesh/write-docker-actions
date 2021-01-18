@@ -19,8 +19,5 @@ for fact in r_obj_list:
 # into a variable named random_fact so we can use it
 random_fact = random.choice(fact_list)
 
-# Print the individual randomly returned cat-fact
-print(random_fact)
-
 # Set the fact-output of the action as the value of random_fact
 print(f"::set-output name=fact::{random_fact}")
